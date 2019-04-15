@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  @include breakpoint(xs) {
+    justify-content: center;
+    padding-top: 30px;
+  }
+  a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: normal;
+    border-radius: 12px;
+    color: $ruby;
+    &.-agate {
+      color: #3d6ef9;
+      &:hover {
+        color: rgb(48, 88, 199);
+      }
+    }
+    &.-coral {
+      color: #1b83f8;
+      &:hover {
+        color: #1567c6;
+      }
+    }
+    &:hover {
+      color: $ruby-hover;
+      text-decoration: none;
+    }
+    img {
+      margin-left: 10px;
+    }
+  }
+}

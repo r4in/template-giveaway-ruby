@@ -1,0 +1,27 @@
+.card-content {
+  margin: 20px;
+  margin-left: 0;
+  text-align: left;
+  > .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: normal;
+    color: #f72948;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    &.-agate {
+      color: #6553fc;
+    }
+    &.-coral {
+      color: #1b83f8;
+    }
+  }
+  > .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    color: #3c4855;
+  }
+}

@@ -1,0 +1,19 @@
+.deploy-link {
+  display: flex;
+  align-items: center;
+  @include breakpoint(xs) {
+    margin-top: 20px;
+  }
+  img {
+    &:hover {
+      transform: translatey(-1px);
+      box-shadow: 0 10px 20px rgba(13, 57, 114, 0.15);
+      transition: all 200ms ease-in-out;
+    }
+    &:active {
+      transform: translatey(1px);
+      box-shadow: 0 10px 20px rgba(13, 57, 114, 0.15);
+      transition: all 100ms ease-in-out;
+    }
+  }
+}

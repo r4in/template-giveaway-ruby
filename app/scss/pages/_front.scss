@@ -1,0 +1,31 @@
+.page-front {
+  .section-hero {
+    text-align: center;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    @include breakpoint(xl) {
+      background-size: contain;
+    }
+    @include breakpoint(sm) {
+      padding-top: 60px;
+    }
+    @include breakpoint(xs) {
+      padding-top: 40px;
+    }
+    .caption {
+      margin-top: 20px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: normal;
+      color: #3c4855;
+    }
+    h2 {
+      margin-bottom: 80px;
+    }
+    h4 {
+      margin-top: 120px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.email-component {
+  position: relative;
+  margin-bottom: 90px;
+  input {
+    padding: 24px;
+    box-shadow: none;
+    border: none;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem #fa294530;
+    }
+  }
+}

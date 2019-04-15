@@ -1,0 +1,24 @@
+.card-feature {
+  display: flex;
+  align-items: flex-start;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(13, 57, 114, 0.1);
+  border-radius: 12px;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(13, 57, 114, 0.15);
+  }
+  @include breakpoint(md) {
+    margin-bottom: 20px;
+  }
+  > .ico {
+    margin: 20px;
+    margin-right: 15px;
+  }
+  &.-second {
+    margin-top: -40px;
+    @include breakpoint(md) {
+      margin-top: 0;
+    }
+  }
+}

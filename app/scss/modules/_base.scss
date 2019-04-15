@@ -1,0 +1,48 @@
+* {
+  transition: all 200ms ease-in-out;
+}
+
+:root {
+  font-size: 16px;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $source;
+  background-color: #fbfbfb;
+}
+
+section {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: normal;
+  color: #3c4855;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: normal;
+  color: #3c4855;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: normal;
+  color: #fff;
+  margin-bottom: 30px;
+}
