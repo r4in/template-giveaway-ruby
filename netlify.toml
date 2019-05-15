@@ -9,4 +9,4 @@
   publish = "dist/"
 
   # Default build command.
-  command = "echo 'gulp build'"
+  command = "gulp build"
